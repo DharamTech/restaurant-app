@@ -25,7 +25,7 @@ function App() {
                             <li><Link to="/detail">Details</Link></li>
                    <li> <Link to="/update">Update</Link></li>
              </ul>
-        
+        <img src={process.env.PUBLIC_URL+"https://www.thestrat.com/userfiles/media/images/657/large_top-of-the-world-view2.jpg"} alt="mypic" />
          </Router>
     </div>
   );
